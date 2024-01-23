@@ -27,9 +27,9 @@ You can download pre trained models to test the data.
   ## Test Reimage3k/Dped10k
   you can download Reimage3k and DPED10k.
   
-  Download Reimage3k datasets in [Reimag3k]https://pan.baidu.com/s/1mlkVfbyQi3_Fv7GTuilZ0w code is A1B3.
+  Download Reimage3k datasets in [Reimag3k](https://pan.baidu.com/s/1mlkVfbyQi3_Fv7GTuilZ0w) code is A1B3.
   
-  Please download DPED10K dataset from [Baidu Netdisk]https://pan.baidu.com/share/init?surl=8mwRhUdKsKaL6J-08mdlLQ (Password: roqs). Create a folder and unzip the dataset into it, then edit the pathes of the folder in options/base_options.py
+  Please download DPED10K dataset from [Baidu Netdisk](https://pan.baidu.com/share/init?surl=8mwRhUdKsKaL6J-08mdlLQ) (Password: roqs). Create a folder and unzip the dataset into it, then edit the pathes of the folder in options/base_options.py
   ## Test your own image
   There are two options:
   1. If you want to test single image, you can run test_ single_ img.py, by modifying the input image and pre-trained model.
@@ -58,5 +58,5 @@ You can download pre trained models to test the data.
   python train.py --nodes 1 --gpus 1 --GPU_ids '0' --path ./ckpt/xxx/ --config_file ./config_list/config_train_Reimage.yml
   ```
 # Acknowledgments
-RDCIN is bulit upon the ZITS and inspired by RGTSI. We appreciate the authors' excellent work!
+RDCIN is bulit upon the [ZITS](https://github.com/DQiaole/ZITS_inpainting?tab=readme-ov-file) and inspired by [RGTSI](https://github.com/Cameltr/RGTSI). We appreciate the authors' excellent work!
 
