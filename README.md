@@ -57,3 +57,6 @@ You can download pre trained models to test the data.
   ```bash
   python train.py --nodes 1 --gpus 1 --GPU_ids '0' --path ./ckpt/xxx/ --config_file ./config_list/config_train_Reimage.yml
   ```
+# Acknowledgments
+RDCIN is bulit upon the ZITS and inspired by RGTSI. We appreciate the authors' excellent work!
+
