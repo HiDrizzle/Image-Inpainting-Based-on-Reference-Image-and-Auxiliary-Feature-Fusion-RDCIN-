@@ -5,7 +5,7 @@ Official code for Image Inpainting Based on Reference Image and Auxiliary Featur
 # Environment
 ## preparing the environment
 
-  ```bash
+  ```
   conda create -n train_env python=3.6
   conda activate train_env
   pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
@@ -14,7 +14,7 @@ Official code for Image Inpainting Based on Reference Image and Auxiliary Featur
 ## DistributedDataParallel（DDP）
  If you want to achieve distributed training through multiple cards, you can use Distributed Data Parallel (DDP), If you only have one GPU, you can ignore it
 
-  ```bash
+  ```
   git clone https://github.com/NVIDIA/apex
   cd apex
   pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" ./
@@ -33,11 +33,11 @@ You can download pre trained models to test the data.
   ## Test your own image
   There are two options:
   1. If you want to test single image, you can run test_ single_ img.py, by modifying the input image and pre-trained model.
-  ```bash
+  ```
   python test_single_img.py
   ```
   2. If you want to test multiple images, you can run the model_ Test.py. Please use create.py to generate the txt file for the image folder path, and then modify the config_ Test. yaml in the list is sufficient.
-  ```bash
+  ```
   python model_test.py --nodes 1 --gpus 1 --GPU_ids '0' --config_file ./config_list/config_test_Reimage.yml
   ```
 # Train your own model
@@ -50,11 +50,11 @@ You can download pre trained models to test the data.
   Prepare the dataset and prepare the. txt file (generated through create. py). Then modify the train. yaml file in the config_list.
 
   You can run:
-  ```bash
+  ```
   python train.py --nodes 1 --gpus 1 --GPU_ids '0' --path ./ckpt/xxx/ --config_file ./config_list/config_train_Reimage.yml --DDP
   ```
   or:
-  ```bash
+  ```
   python train.py --nodes 1 --gpus 1 --GPU_ids '0' --path ./ckpt/xxx/ --config_file ./config_list/config_train_Reimage.yml
   ```
 # Acknowledgments
