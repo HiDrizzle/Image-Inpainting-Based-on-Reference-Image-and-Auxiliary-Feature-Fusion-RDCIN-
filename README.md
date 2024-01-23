@@ -17,8 +17,9 @@ Official code for Image Inpainting Based on Reference Image and Auxiliary Featur
 # 
 # Train your own model
   If you need to train the model, please download the pretrained models for perceptual loss, provided by LaMa:
-  ```python
-  python train.py --nodes 1 --gpus 1 --GPU_ids '0' --path ./ckpt/xxx/ --config_file ./config_list/config_train_DPED.yml --DDP
+  ```bash
+  mkdir -p ade20k/ade20k-resnet50dilated-ppm_deepsup/
+  wget -P ade20k/ade20k-resnet50dilated-ppm_deepsup/ http://sceneparsing.csail.mit.edu/model/pytorch/ade20k-resnet50dilated-ppm_deepsup/encoder_epoch_20.pth
   ```
   
   Prepare the dataset and prepare the. txt file (generated through create. py). Then modify the train. yaml file in the config_list.
