@@ -27,7 +27,7 @@ You can download pre trained models to test the data.
   ## Test Reimage3k/Dped10k
   you can download Reimage3k and DPED10k.
   
-  Download Reimage3k datasets in [Reimag3k](https://pan.baidu.com/s/1mlkVfbyQi3_Fv7GTuilZ0w) (Password: A1B3).
+  Download Reimage3k datasets from [Reimag3k](https://pan.baidu.com/s/1mlkVfbyQi3_Fv7GTuilZ0w) (Password: A1B3).
   
   Please download DPED10K dataset from [DPED10K](https://pan.baidu.com/share/init?surl=8mwRhUdKsKaL6J-08mdlLQ) (Password: roqs). Create a folder and unzip the dataset into it, then edit the pathes of the folder in options/base_options.py
   ## Test your own image
