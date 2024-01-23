@@ -2,6 +2,23 @@
 Official code for Image Inpainting Based on Reference Image and Auxiliary Feature Fusion.
 # pipeline
 [![dab040aa8e8076a400f9d46a29357b06.png](https://s1.imagehub.cc/images/2024/01/23/dab040aa8e8076a400f9d46a29357b06.png)](https://www.imagehub.cc/image/1aDYiA)
+# Environment
+## preparing the environment
+
+  ```bash
+  conda create -n train_env python=3.6
+  conda activate train_env
+  pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+  pip install -r requirement.txt
+  ```
+## DistributedDataParallel（DDP）
+ If you want to achieve distributed training through multiple cards, you can use Distributed Data Parallel (DDP)
+
+  ```bash
+  git clone https://github.com/NVIDIA/apex
+  cd apex
+  pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" ./
+  ```
 # Test image
   There are two situations:
   ## test Reimage3k/Dped10k
@@ -14,7 +31,6 @@ Official code for Image Inpainting Based on Reference Image and Auxiliary Featur
   There are two options:
   1. If you want to test single image, you can run test_ single_ img.py, by modifying the input image and pre-trained model.
   2. If you want to test multiple images, you can run the model_ Test.py. Please use create.py to generate the txt file for the image folder path, and then modify the config_ Test. yaml in the list is sufficient.
-# 
 # Train your own model
   If you need to train the model, please download the pretrained models for perceptual loss, provided by LaMa:
   ```bash
