@@ -19,6 +19,9 @@ Official code for Image Inpainting Based on Reference Image and Auxiliary Featur
   cd apex
   pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" ./
   ```
+## Pre-trained model
+You can download pre trained models to test the data.
+
 # Test image
   There are two situations:
   ## Test Reimage3k/Dped10k
