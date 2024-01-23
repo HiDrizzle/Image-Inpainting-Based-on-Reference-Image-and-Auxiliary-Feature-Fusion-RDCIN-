@@ -15,6 +15,5 @@ Official code for Image Inpainting Based on Reference Image and Auxiliary Featur
   1. If you want to test single image, you can run test_ single_ img.py, by modifying the input image and pre-trained model.
   2. If you want to test multiple images, you can run the model_ Test.py. Please use create.py to generate the txt file for the image folder path, and then modify the config_ Test. yaml in the list is sufficient.
 # Train your own model
-
-
-Download Reimage3k datasets in https://pan.baidu.com/s/1mlkVfbyQi3_Fv7GTuilZ0w code is A1B3.
+  Prepare the dataset and prepare the. txt file (generated through create. py). Then modify the train. yaml file in the config_list.
+  <span stylt="color:#333333">'python train.py --nodes 1 --gpus 1 --GPU_ids '0' --path ./ckpt/xxx/ --config_file ./config_list/config_train_DPED.yml' --DDP</span>
