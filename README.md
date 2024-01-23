@@ -5,7 +5,10 @@ Official code for Image Inpainting Based on Reference Image and Auxiliary Featur
 # Test image
   There are two situations:
   ## test Reimage3k/Dped10k
-    
+  ## test your own image
+  There are two options:
+  1. If you want to test single image, you can run test_ single_ img.py, by modifying the input image and pre-trained model.
+  2. If you want to test multiple images, you can run the model_ Test.py. Please use create.py to generate the txt file for the image folder path, and then modify the config_ Test. yaml in the list is sufficient.
 # Train your own model
 
 
