@@ -18,3 +18,6 @@ Official code for Image Inpainting Based on Reference Image and Auxiliary Featur
   Prepare the dataset and prepare the. txt file (generated through create. py). Then modify the train. yaml file in the config_list.
   
   <span stylt="color:#333333">'python train.py --nodes 1 --gpus 1 --GPU_ids '0' --path ./ckpt/xxx/ --config_file ./config_list/config_train_DPED.yml' --DDP</span>
+  ```python
+  python train.py --nodes 1 --gpus 1 --GPU_ids '0' --path ./ckpt/xxx/ --config_file ./config_list/config_train_DPED.yml --DDP
+  ```
