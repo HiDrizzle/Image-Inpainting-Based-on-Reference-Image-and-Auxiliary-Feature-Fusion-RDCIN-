@@ -6,7 +6,9 @@ Official code for Image Inpainting Based on Reference Image and Auxiliary Featur
   There are two situations:
   ## test Reimage3k/Dped10k
   you can download Reimage3k and DPED10k.
+  
   Download Reimage3k datasets in [Reimag3k]https://pan.baidu.com/s/1mlkVfbyQi3_Fv7GTuilZ0w code is A1B3.
+  
   Please download DPED10K dataset from [Baidu Netdisk]https://pan.baidu.com/share/init?surl=8mwRhUdKsKaL6J-08mdlLQ (Password: roqs). Create a folder and unzip the dataset into it, then edit the pathes of the folder in options/base_options.py
   ## test your own image
   There are two options:
