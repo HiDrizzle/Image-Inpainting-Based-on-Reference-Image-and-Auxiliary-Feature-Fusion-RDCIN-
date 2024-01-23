@@ -12,7 +12,7 @@ Official code for Image Inpainting Based on Reference Image and Auxiliary Featur
   pip install -r requirement.txt
   ```
 ## DistributedDataParallel（DDP）
- If you want to achieve distributed training through multiple cards, you can use Distributed Data Parallel (DDP)
+ If you want to achieve distributed training through multiple cards, you can use Distributed Data Parallel (DDP), If you only have one GPU, you can ignore it
 
   ```bash
   git clone https://github.com/NVIDIA/apex
