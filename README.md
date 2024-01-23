@@ -44,3 +44,7 @@ Official code for Image Inpainting Based on Reference Image and Auxiliary Featur
   ```bash
   python train.py --nodes 1 --gpus 1 --GPU_ids '0' --path ./ckpt/xxx/ --config_file ./config_list/config_train_DPED.yml --DDP
   ```
+  or:
+  ```bash
+  python train.py --nodes 1 --gpus 1 --GPU_ids '0' --path ./ckpt/xxx/ --config_file ./config_list/config_train_DPED.yml
+  ```
