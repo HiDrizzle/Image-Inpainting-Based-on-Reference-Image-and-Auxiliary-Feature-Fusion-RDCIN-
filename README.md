@@ -21,7 +21,6 @@ Official code for Image Inpainting Based on Reference Image and Auxiliary Featur
   ```
 ## Pre-trained model
 You can download pre trained models to test the data. [Pretrained-model](https://pan.baidu.com/s/1pxnusro0OAIkbWJDi-mo8Q?pwd=B1X1) (Password: B1X1)
-提取码：B1X1
 # Test image
   There are two situations:
   ## Test Reimage3k/Dped10k
