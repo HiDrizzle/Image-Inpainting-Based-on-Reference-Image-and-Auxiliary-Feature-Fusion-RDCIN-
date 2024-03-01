@@ -19,6 +19,11 @@ Official code for Image Inpainting Based on Reference Image and Auxiliary Featur
   cd apex
   pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" ./
   ```
+If you need to train the model, please download the pretrained models for perceptual loss, provided by LaMa:
+  ```
+  mkdir -p ade20k/ade20k-resnet50dilated-ppm_deepsup/
+  wget -P ade20k/ade20k-resnet50dilated-ppm_deepsup/ http://sceneparsing.csail.mit.edu/model/pytorch/ade20k-resnet50dilated-ppm_deepsup/encoder_epoch_20.pth
+  ```
 ## Pre-trained model
 You can download pre trained models to test the data. [Pretrained-model](https://pan.baidu.com/s/1pxnusro0OAIkbWJDi-mo8Q?pwd=B1X1) (Password: B1X1)
 # Test image
