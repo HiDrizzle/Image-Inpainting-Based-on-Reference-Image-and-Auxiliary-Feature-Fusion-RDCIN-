@@ -1,7 +1,7 @@
 # Image-Inpainting-Based-on-Reference-Image-and-Auxiliary-Feature-Fusion-RDCIN-
 Official code for Image Inpainting Based on Reference Image and Auxiliary Feature Fusion.
 # pipeline
-[![dab040aa8e8076a400f9d46a29357b06.png](https://s1.imagehub.cc/images/2024/01/23/dab040aa8e8076a400f9d46a29357b06.png)](https://www.imagehub.cc/image/1aDYiA)
+[![d2acb016acaf652714ee8cd027e287cb.png](https://s1.imagehub.cc/images/2024/03/26/d2acb016acaf652714ee8cd027e287cb.png)](https://www.imagehub.cc/image/1qgnLo)
 # Environment
 ## preparing the environment
 
