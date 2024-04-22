@@ -17,7 +17,7 @@ Official code for Image Inpainting Based on Reference Image and Auxiliary Featur
   ```
   git clone https://github.com/NVIDIA/apex
   cd apex
-  pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" ./
+  python setup.py install
   ```
 ## Pre-trained model
 You can download pre trained models to test the data. [Pretrained-model](https://pan.baidu.com/s/1pxnusro0OAIkbWJDi-mo8Q?pwd=B1X1) (Password: B1X1)
